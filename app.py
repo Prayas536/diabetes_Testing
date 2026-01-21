@@ -5,7 +5,6 @@ import streamlit as st
 # import google.generativeai as genai  # Removed as we're using SambaNova
 import requests  # Added for SambaNova API calls
 from dotenv import load_dotenv
-
 # 1. Load environment variables from .env file
 load_dotenv("gemini.env")  # You may want to rename this file to something like .env for SambaNova
 
